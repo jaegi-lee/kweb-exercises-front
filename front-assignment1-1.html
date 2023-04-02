@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWEB Survey page</title>
+</head>
+
+<body>
+    <h2>KWEB Survey Page</h2>
+
+    <img src="https://i.imgur.com/hSSFVSw.png" alt="kweb logo" width="250" height="80">
+
+    <div class="page-hyperlink">
+        <a href="https://kwebofficial.com/" title="kweb page" target="_blank">
+            KWEB Homepage</a>
+    </div>
+    <div id="username">
+        <h3>1. Write your name.</h3>
+        <input type="text" name="username">
+    </div>
+
+    <div id="student-number">
+        <h3>2. Write your student number. </h3>
+        <input type="text" name="student-number">
+    </div>
+    <div id="member-level">
+        <h3>3. Select your member level.</h3>
+        <label><input type="radio" name="member-level" value="admin">Admin</label>
+        <label><input type="radio" name="member-level" value="intern">Intern</label>
+        <label><input type="radio" name="member-level" value="qualified">Qualified</label>
+    </div>
+    <div id="interested-field">
+        <h3>4. Select all fields you are interested in.</h3>
+        <label><input type="checkbox" name="member-level" value="front-end">Front-end</label>
+        <label><input type="checkbox" name="member-level" value="back-end">Back-end</label>
+        <label><input type="checkbox" name="member-level" value="web crawling">Web crawling</label>
+        <label><input type="checkbox" name="member-level" value="etcetera">Etcetera</label>
+        <span>
+            <input type="text" name="etcetera">
+        </span>
+    </div>
+
+    <div id="individual-opinion">
+        <h3>5. Give us your overall evaluation and feedback about the previous sutdy.</h3>
+        <textarea cols="97" rows= "25" name="individual-opinion"></textarea>
+        <div>
+            <button type="submit">Submit your answers</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
